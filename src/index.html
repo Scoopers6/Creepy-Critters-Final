@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include 'head', title:'My Homepage' %}
+<meta name="description" content="An educational site about misunderstood creepy critters like spiders and snakes.">
+    <meta name="author" content="Samantha R Cooper">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+  {% include 'head', title:'Creepy Critters Homepage' %}
   <body class="home">
     {% include 'header' %}
     <main id="main-content">
-      <h1>Home</h1>
-      <img
-        src="/assets/sample-img.jpg"
-        alt="A pizza"
-        style="max-width: 700px"
-      />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo
-        amet voluptate quis doloremque harum. Omnis esse atque, mollitia
-        consequatur dolore dicta ratione, dignissimos sunt molestias earum
-        obcaecati! Accusantium, ipsam.
-      </p>
+      
+      
+     
+    <a href= "">
+        <img class= "jspider" alt="Jumping Spider saying hello" src="/assets/hello.png" /> </a>
+    <main>
+        <div class ="top">
+
+        <h1> Our Quest </h1>
+        <h3> <em> "Don't judge a book by its cover." </em></h3>
+        <p> We aim to change the sterotype of "scary" creatures such as spiders. These important beings are often not given the credit they deserve. We want to foster understanding and apprication for these fascinating beings. We believe that knowledge is the key to overcoming fear so we provide resources, articles and information to show you how these creatures benefit your daily lives, even if you might not know it. We want to transform apprehension into admiration and our platform serves to do so. We invite users to explore the worlds these creatures inhabit. Join us on our journey to unravel the mysteries of these remarkable creatures, one insight at a time. </p>
+        </div>
+
+            <div class="icons">
+             <a href=""> 
+                 <img class="icon" alt="Spider Cartoon Icon" src="/assets/spiderr.png" /></a>
+                <a href="spiders.html"> 
+                    <h2> Spiders </h2> </a>
+             <a href="">
+                  <img class="icon" alt="Salamander Cartoon Icon" src="/assets/salamanderr.png" /></a>
+                <a href="salamanders.html">
+                    <h2> Salamanders </h2> </a>
+             <a href="">
+                  <img class="icon" alt="Snake Cartoon Icon" src="/assets/snakee.png" /></a>
+                <a href="snakes.html">
+                 <h2> Snakes </h2> </a>
+            </div>
+    </main>
     </main>
     {% include 'footer' %}
   </body>

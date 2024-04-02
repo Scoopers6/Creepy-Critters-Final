@@ -1,1 +1,138 @@
 /* you can put styles in here :) */
+body {
+    background: #FDF7EE;
+}
+
+h1 {
+    color: #000;
+    font-family: "Jua";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+nav {
+    line-height:.5;
+    color:#000
+}
+
+p {
+    max-width: 700px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 50px;
+}
+
+.top h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #000;
+    font-family: "Jua";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+img {
+    max-width: 500px;
+}
+
+.logo {
+    max-width: 100px;
+    float:left;
+    padding: 10px
+    
+}
+
+.jspider {
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.links {
+    text-align: right;
+    font-size: 30px;
+    font-family: "Jua";
+    color: #000;
+}
+:any-link {
+    text-align: right;
+    font-size: 30px;
+    font-family: "Jua";
+    color: #FFF;
+}
+
+body {
+    color: #000;
+    font-family: Kreon;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+h3 {
+    color: #000;
+    font-family: Kreon;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+
+}
+
+footer {
+    background: #706464;
+
+    color: #FFF;
+    font-family: Kreon;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+
+}
+header {
+    background: #E4DDCB;
+    height: 250px;
+    flex-shrink: 0;
+    vertical-align: top;
+}
+ header h1 {
+    margin: 0;
+    line-height: 1;
+ }
+
+
+.top {
+    background:#FAECC9;
+}
+.icons {
+    background:#FDDAAF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.wlogo {
+    max-width: 150px;
+    padding: 25px;
+    float:left;
+}
+
+        /* mouse over link */
+    a:hover {
+    color: hotpink;
+}
+
+
