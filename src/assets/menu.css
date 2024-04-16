@@ -82,7 +82,7 @@
 .nav-items-list a {
   text-decoration: none;
   font-size: 2rem;
-  padding: 1rem;
+  padding: 3rem;
   text-align: center;
   transition: background-color 0.3s;
 }
@@ -125,7 +125,7 @@ main {
 }
 
 /* this media query sets the point where the layout transitions from top bar to hamburger */
-@media (min-width: 640px) {
+@media (min-width: 1080px) {
   /* this makes the top bar menu items go across in a row on desktop */
   nav.main-nav {
     display: flex;
@@ -152,6 +152,10 @@ main {
     transform: none;
     transition: all 0.3s;
   }
+  .nav-items-list a {
+    padding: 1rem;
+  }
+
   /* this is the selector that hides the nav on desktop */
   .btn-toggle-menu {
     display: none;
