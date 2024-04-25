@@ -41,6 +41,9 @@ nav {
     padding-bottom: 50px;
     margin: 0;
 }
+.home h1 {
+    padding-top: -25px;
+}
 
 .top h1 {
     text-align: center;
@@ -170,6 +173,10 @@ footer div {
     gap: 10px;
 }
 
+img hello {
+    background-color: #FDF7EE;
+}
+
 @media (min-width:1080px) {
     h1 {
         font-size: 45px;
@@ -198,10 +205,49 @@ footer div {
     text-align: center;
 }
 
+.spiders {
+    padding: 50px;
+}
+
+.spiderhi {
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+
 .info {
     display:flex;
     flex-direction: column;
     text-align: left;
     padding-top: 50px;
     padding-left: 10px;
+}
+
+.sources {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;
+
+}
+
+.about h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.about p {
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.about {
+    padding-top: 45px;
 }
