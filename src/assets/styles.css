@@ -27,6 +27,8 @@ h1 {
     font-weight: 400;
     
 }
+
+
 nav {
     line-height:.5;
     color:#000
@@ -80,7 +82,8 @@ img {
     font-family: "Jua";
     color: #000;
 }
-:any-link {
+
+#footlink {
     text-align: right;
     font-size: 30px;
     font-family: "Jua";
@@ -126,9 +129,10 @@ header {
     vertical-align: top;
     padding-top: 15px;
 }
- header h1 {
+header h1 {
     margin: 0;
     line-height: 1;
+   
  }
 
 
@@ -141,8 +145,6 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100vw;
-    
-    
     
 }
 
@@ -170,11 +172,36 @@ footer div {
 
 @media (min-width:1080px) {
     h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
 }
 
 .button a {
     color: #000;
+}
+
+.spiders img {
+    display:flex;
+    align-items: center;
+}
+
+.spiders p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.spiders h2 {
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    text-align: center;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 10px;
 }
