@@ -184,13 +184,12 @@ img hello {
 
 }
 
-.button a {
-    color: #000;
-}
+/* SPIDER PAGE START */
 
 .spiders img {
     display:flex;
     align-items: center;
+    max-width: 450px;
 }
 
 .spiders p {
@@ -201,7 +200,7 @@ img hello {
 .spiders h2 {
     display:flex;
     flex-direction:column;
-    gap:30px;
+    gap:15px;
     text-align: center;
 }
 
@@ -214,6 +213,92 @@ img hello {
     text-align: center;
     align-items: center;
 }
+
+.spiders a:hover {
+        color: grey;
+}
+
+.spiders a {
+    color: lightsalmon;
+}
+
+.spiders h1 {
+    font-size: 100px;
+    text-align: center;
+    padding: -15px;
+}
+
+/* SPIDER PAGE END */
+
+/* SALAMANDER PAGE START */
+
+.salamanders img {
+    display:flex;
+    align-items: center;
+    max-width: 450px;
+}
+
+.salamanders p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.salamanders h2 {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    text-align: center;
+}
+
+.salamanders {
+    padding: 50px;
+}
+
+
+.salamanders a:hover {
+    color: white;
+}
+
+.salamanders a {
+color: pink;
+}
+
+/* SALAMANDER PAGE END */
+
+/*SNAKE PAGE START */
+.snakes img {
+    display:flex;
+    align-items: center;
+    max-width: 450px;
+}
+
+.snakes p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.snakes h2 {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    text-align: center;
+}
+
+.snakes {
+    padding: 50px;
+}
+
+.snakes a:hover {
+    color: peachpuff;
+}
+
+.snakes a {
+color: teal;
+}
+
+/*SNAKE PAGE END */
+
+/* ABOUT PAGE START */
 
 .info {
     display:flex;
@@ -251,3 +336,9 @@ img hello {
 .about {
     padding-top: 45px;
 }
+
+.about img {
+    padding-left: 50px;
+}
+
+/* ABOUT PAGE END */
