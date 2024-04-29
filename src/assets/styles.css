@@ -254,9 +254,15 @@ img hello {
     padding: 50px;
 }
 
+.salamanders h1 {
+    font-size: 100px;
+    text-align: center;
+    padding: -15px;
+}
+
 
 .salamanders a:hover {
-    color: white;
+    color: #e75480;
 }
 
 .salamanders a {
@@ -288,8 +294,14 @@ color: pink;
     padding: 50px;
 }
 
+.snakes h1 {
+    font-size: 100px;
+    text-align: center;
+    padding: -15px;
+}
+
 .snakes a:hover {
-    color: peachpuff;
+    color: #95AA63;
 }
 
 .snakes a {
