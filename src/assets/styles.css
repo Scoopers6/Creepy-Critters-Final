@@ -312,6 +312,11 @@ color: teal;
 
 /* ABOUT PAGE START */
 
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
 .info {
     display:flex;
     flex-direction: column;
