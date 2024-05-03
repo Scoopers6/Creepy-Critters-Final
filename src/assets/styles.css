@@ -4,6 +4,14 @@ html, body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+.center, h1, h2, h3 {
+    align-self: center;
+}
+
 
 .home main {
     display:flex;
@@ -25,7 +33,7 @@ h1 {
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    
+    offset: 30px;
 }
 
 
@@ -68,6 +76,19 @@ img {
     float:left;
     padding: 10px
     
+}
+
+.page-nav {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+    position: fixed;
+    top: 25%;
+    right: 0;
+    font-family: "Kreon";
+    font-size: 25px;
 }
 
 .jspider {
@@ -135,7 +156,7 @@ header {
 header h1 {
     margin: 0;
     line-height: 1;
-   
+    font-size: 45px;
  }
 
 
@@ -177,12 +198,7 @@ img hello {
     background-color: #FDF7EE;
 }
 
-@media (min-width:1080px) {
-    h1 {
-        font-size: 45px;
-    }
 
-}
 
 /* SPIDER PAGE START */
 
@@ -205,7 +221,7 @@ img hello {
 }
 
 .spiders {
-    padding: 50px;
+    padding: 70px;
 }
 
 .spiderhi {
@@ -225,8 +241,16 @@ img hello {
 .spiders h1 {
     font-size: 100px;
     text-align: center;
-    padding: -15px;
+    padding: 85px 0 0;
+    align-self: center;
 }
+
+.spiders {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 
 /* SPIDER PAGE END */
 
@@ -257,7 +281,7 @@ img hello {
 .salamanders h1 {
     font-size: 100px;
     text-align: center;
-    padding: -15px;
+    padding: 85px 0 0;
 }
 
 
@@ -297,7 +321,7 @@ color: pink;
 .snakes h1 {
     font-size: 100px;
     text-align: center;
-    padding: -15px;
+    padding: 85px 0 0;
 }
 
 .snakes a:hover {
@@ -359,3 +383,12 @@ color: teal;
 }
 
 /* ABOUT PAGE END */
+
+@media (min-width:1080px) {
+    h1 {
+        font-size: 100px;
+    }
+    spiders {
+        padding:-10px;
+    }
+}
