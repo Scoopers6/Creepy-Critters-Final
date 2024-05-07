@@ -8,7 +8,7 @@ html {
     scroll-behavior: smooth;
   }
 
-.center, h1, h2, h3 {
+.center, h1, h2, h3, p {
     align-self: center;
 }
 
@@ -79,7 +79,7 @@ img {
 }
 
 .page-nav {
-    background: black;
+    background:#706464;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -202,25 +202,27 @@ img hello {
 
 /* SPIDER PAGE START */
 
-.spiders img {
+main img {
     display:flex;
     align-items: center;
     max-width: 450px;
 }
 
-.spiders p {
+main p {
     padding-left: 30px;
     padding-right: 30px;
+    max-width: 700px;
+ 
 }
 
-.spiders h2 {
+main h2 {
     display:flex;
     flex-direction:column;
     gap:15px;
     text-align: center;
 }
 
-.spiders {
+main {
     padding: 70px;
 }
 
@@ -231,21 +233,21 @@ img hello {
 }
 
 .spiders a:hover {
-        color: grey;
+        color: whitesmoke;
 }
 
 .spiders a {
-    color: lightsalmon;
+    color: rgb(248, 188, 164);
 }
 
-.spiders h1 {
+main h1 {
     font-size: 100px;
     text-align: center;
     padding: 85px 0 0;
     align-self: center;
 }
 
-.spiders {
+main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -255,34 +257,6 @@ img hello {
 /* SPIDER PAGE END */
 
 /* SALAMANDER PAGE START */
-
-.salamanders img {
-    display:flex;
-    align-items: center;
-    max-width: 450px;
-}
-
-.salamanders p {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.salamanders h2 {
-    display:flex;
-    flex-direction:column;
-    gap:15px;
-    text-align: center;
-}
-
-.salamanders {
-    padding: 50px;
-}
-
-.salamanders h1 {
-    font-size: 100px;
-    text-align: center;
-    padding: 85px 0 0;
-}
 
 
 .salamanders a:hover {
@@ -296,33 +270,6 @@ color: pink;
 /* SALAMANDER PAGE END */
 
 /*SNAKE PAGE START */
-.snakes img {
-    display:flex;
-    align-items: center;
-    max-width: 450px;
-}
-
-.snakes p {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.snakes h2 {
-    display:flex;
-    flex-direction:column;
-    gap:15px;
-    text-align: center;
-}
-
-.snakes {
-    padding: 50px;
-}
-
-.snakes h1 {
-    font-size: 100px;
-    text-align: center;
-    padding: 85px 0 0;
-}
 
 .snakes a:hover {
     color: #95AA63;
@@ -354,6 +301,7 @@ color: teal;
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
+   
 }
 
 .resources {
@@ -362,7 +310,7 @@ color: teal;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 40px;
-
+    
 }
 
 .about h1 {
@@ -383,6 +331,7 @@ color: teal;
 }
 
 /* ABOUT PAGE END */
+
 
 @media (min-width:1080px) {
     h1 {
