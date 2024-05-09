@@ -202,7 +202,7 @@ img hello {
 
 /* SPIDER PAGE START */
 
-main img {
+.spiders img {
     display:flex;
     align-items: center;
     max-width: 450px;
@@ -253,6 +253,10 @@ main {
     align-items: flex-start;
 }
 
+main strong {
+    max-width: 700px;
+}
+
 
 /* SPIDER PAGE END */
 
@@ -272,11 +276,11 @@ color: pink;
 /*SNAKE PAGE START */
 
 .snakes a:hover {
-    color: #95AA63;
+    color: whitesmoke;
 }
 
 .snakes a {
-color: teal;
+color: #95AA63;
 }
 
 /*SNAKE PAGE END */
