@@ -3,7 +3,7 @@
   --header-height: 130px;
   /* this is the background color of the header bar and panel */
   --menu-bg: #E4DDCB;
-  --menu-highlight-hover: grey;
+  --menu-highlight-hover: white;
 }
 
 * {

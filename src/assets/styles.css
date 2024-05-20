@@ -114,6 +114,14 @@ img {
     color: #FFF;
 }
 
+#headlink {
+    text-align: right;
+    font-size: 30px;
+    font-family: "Jua";
+    color: #625151;
+
+}
+
 body {
     color: #000;
     font-family: Kreon;
@@ -332,6 +340,7 @@ color: #95AA63;
 
 .about img {
     padding-left: 50px;
+    max-width: 500px;
 }
 
 /* ABOUT PAGE END */
